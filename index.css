@@ -228,8 +228,8 @@ header {
       /* Hero Section */
       .hero {
         height: 100vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-          url("https://images.unsplash.com/photo-1551135040-6a4a3a5a9501?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+        background: linear-gradient(rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.521)),
+          url("https://images.unsplash.com/photo-1611144727915-ef30a08aaeb3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bmFpcm9iaXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500");
         background-size: cover;
         background-position: center;
         display: flex;
@@ -249,6 +249,7 @@ header {
         font-size: 3.5rem;
         margin-bottom: 20px;
         line-height: 1.2;
+        color: var(--gold);
       }
 
       .hero p {
@@ -290,6 +291,15 @@ header {
         60% {
           transform: translateY(-10px) translateX(-50%);
         }
+      }
+        .typewriter-text {
+        display: inline-block;
+        overflow: hidden;
+        border-right: 3px solid var(--accent);
+        white-space: nowrap;
+        margin: 0 auto;
+        animation: typing 3.5s steps(40, end),
+          blink-caret 0.75s step-end infinite;
       }
 
       /* About Section */

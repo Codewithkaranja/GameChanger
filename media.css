@@ -219,7 +219,7 @@ header {
       .page-header {
         height: 50vh;
         background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-          url("https://images.unsplash.com/photo-1551135040-6a4a3a5a9501?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+          url("https://media.istockphoto.com/id/1189901322/photo/single-blue-and-white-electric-megaphone-with-a-handle-stands-on-a-blue-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=aOj2C57wOLHVVPuTmUIwqLpzdU-9zTArLRGFcoWBoCA=");
         background-size: cover;
         background-position: center;
         display: flex;
@@ -239,6 +239,7 @@ header {
         font-size: 3rem;
         margin-bottom: 20px;
         line-height: 1.2;
+        color: var(--gold);
       }
 
       .page-header p {
