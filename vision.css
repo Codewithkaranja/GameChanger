@@ -209,7 +209,7 @@ header {
       .hamburger div {
         width: 25px;
         height: 3px;
-        background-color: var(--dark-gray);
+        background-color: gold;
         margin: 5px;
         transition: var(--transition);
       }
@@ -250,7 +250,7 @@ header {
 
       /* Vision Statement */
       .vision-statement {
-        background-color: var(--light-gray);
+        background-color: black;
         text-align: center;
       }
 
@@ -267,6 +267,7 @@ header {
       .vision-statement p {
         font-size: 1.2rem;
         margin-bottom: 30px;
+        color: rgba(255, 255, 255, 0.842);
       }
 
       /* Pillars Section */

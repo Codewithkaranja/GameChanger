@@ -220,7 +220,7 @@ header {
       .hamburger div {
         width: 25px;
         height: 3px;
-        background-color: var(--dark-gray);
+        background-color: gold;
         margin: 5px;
         transition: var(--transition);
       }
@@ -261,7 +261,7 @@ header {
 
       /* Contact Intro */
       .contact-intro {
-        background-color: var(--light-gray);
+        background-color: black;
         text-align: center;
       }
 
@@ -278,6 +278,7 @@ header {
       .contact-intro p {
         font-size: 1.1rem;
         margin-bottom: 30px;
+        color: rgba(255, 255, 255, 0.76);
       }
 
       /* Contact Methods */
@@ -289,7 +290,7 @@ header {
       }
 
       .contact-card {
-        background-color: var(--white);
+        background-color: black;
         border-radius: 10px;
         padding: 40px 30px;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
@@ -323,12 +324,13 @@ header {
 
       .contact-card p {
         margin-bottom: 20px;
-        color: #666;
+        color: rgba(255, 255, 255, 0.801);
       }
 
       .contact-details {
         text-align: left;
         margin-top: 20px;
+        color: white;
       }
 
       .contact-details li {
@@ -353,7 +355,7 @@ header {
       }
 
       .contact-form-container {
-        background-color: var(--white);
+        background-color: black;
         border-radius: 10px;
         padding: 40px;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
@@ -364,16 +366,21 @@ header {
         margin-bottom: 25px;
         text-align: center;
       }
+      .contact-form-container h6{
+        color: white;
+      }
 
       .form-group {
         margin-bottom: 20px;
         text-align: left;
+        color: white;
       }
 
       .form-group label {
         display: block;
         margin-bottom: 8px;
         font-weight: 500;
+       
       }
 
       .form-control {
@@ -457,7 +464,7 @@ header {
 
       /* Campaign Offices */
       .offices-section {
-        background-color: var(--light-gray);
+        background-color: black;
       }
 
       .offices-grid {
@@ -797,6 +804,7 @@ header {
 
         .nav-menu li {
           margin: 15px 0;
+          
         }
 
         .hamburger {
@@ -805,6 +813,7 @@ header {
 
         .hamburger.active div:nth-child(1) {
           transform: rotate(-45deg) translate(-5px, 6px);
+          
         }
 
         .hamburger.active div:nth-child(2) {
