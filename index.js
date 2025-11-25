@@ -173,9 +173,10 @@
           }
         });
       });
+
         // Typewriter Effect
       const typewriterElement = document.getElementById("typewriter");
-      const words = ["GreenHub", "Serenity", "Elegance", "Tranquility"];
+      const words = ["GameChanger", "For People", "For Progress", "For Lang'ata"];
       let wordIndex = 0;
       let charIndex = 0;
       let isDeleting = false;
