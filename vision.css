@@ -15,7 +15,7 @@
       }
 
       body {
-        font-family: "Lato", sans-serif;
+        font-family: "Jost", sans-serif;
         line-height: 1.6;
         color: var(--dark-gray);
         background-color: var(--white);
@@ -28,7 +28,7 @@
       h4,
       h5,
       h6 {
-        font-family: "Poppins", sans-serif;
+        font-family: "Jost", sans-serif;
         font-weight: 600;
         margin-bottom: 1rem;
       }
